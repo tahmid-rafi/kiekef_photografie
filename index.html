@@ -3,7 +3,7 @@
      <head>
      <meta charset="utf-8">
      <meta name="viewport" content="width=device-width, initial-scale=1">
-     <title>Bootstrap demo</title>
+     <title>Kieke Fotografie</title>
 
      <!----- Bootstrap cdn link  ------>
      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
@@ -15,7 +15,11 @@
      <!-- custom css link -->
      <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="position-relative">
+     <img class="w-50 position-absolute top-0 start-0" src="image/hero-eclipse1.png" alt="Eclipse">
+     <img class="w-50 position-absolute top-25 start-0" src="image/hero-eclipse2.png" alt="Eclipse">
+
+
 
 <!-- Header section starts here -->
 <header class="w-100 bg-white">
@@ -45,6 +49,49 @@
 <!-- Header section ends here -->
 
 
+<!-- Hero Section starts here -->
+<div class="px-5" id="home">
+<div class="d-grid">
+     <div class="row gap-5 gap-md-0 justify-content-between">
+          <div class="col-12 col-md-6">
+               <h1 class="fw-bolder custom-heading text-black py-5">CAPTURING <br> MOMENTS <span class="custom-color">IN</span> <br> TIME <span><img class="mb-lg-3" src="image/home-span.png" alt="Bar"></span></h1>
+               <p class="pb-4">A Glimpse into the Past, a Snapshot of the Present</p>
+               <button type="button" class="btn custom-btn rounded-5 btn-lg px-5">Get Started</button>
+          </div>
+          <div class="col-12 col-md-6">
+               <div id="carouselExampleIndicators" class="carousel slide">
+                    <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                    <div class="carousel-item active">
+                    <img src="kid_photo/hero-img1.png" class="d-block w-100" alt="Hero-Image">
+                    </div>
+                    <div class="carousel-item">
+                    <img src="kid_photo/portfolio-img4.png" class="d-block w-100" alt="Hero-Image">
+                    </div>
+                    <div class="carousel-item">
+                    <img src="kid_photo/portfolio-img8.png" class="d-block w-100" alt="Hero-Image">
+                    </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                    </button>
+               </div>
+          </div>
+     </div>
+
+     
+</div>
+</div>
+<!-- Hero Section ends here -->
 
 
 
